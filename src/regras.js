@@ -34,7 +34,7 @@ export const creditosDoSemestre = (matriculas) => {
 };
 
 export const passouDoLimite = (total) => {
-  return total > MAX_CREDITOS;
+  return total > 24;
 };
 
 // ── RN-2 · Pré-requisito ────────────────────────────────────────────────────
