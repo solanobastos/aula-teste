@@ -6,4 +6,5 @@ jobs:
   ci:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Olá, CI"
+      - run: echo "Salve tropa"
+      - run: echo "Tudo ok?"
